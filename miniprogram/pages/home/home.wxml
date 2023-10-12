@@ -1,0 +1,5 @@
+<!--pages/home/home.wxml-->
+<top-nav navData="{{navData}}"></top-nav>
+<view>
+    <button bindtap="routerDetail">跳转至详情页</button>
+</view>

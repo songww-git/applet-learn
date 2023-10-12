@@ -1,0 +1,19 @@
+/* pages/top-nav/top-nav.wxss */
+.nav-box{
+  height: 80px;
+  width: 100%;
+  /* background-image: linear-gradient(90deg, #FFCC00 0%, #FFCC00 30%,#FFE57F 79%,#FFF0B2 100%); */
+  /* width: 100%; */
+  background-image: linear-gradient(90deg, #FFCC00 0%, #FFCC00 30%, #FFE57F 79%, #FFF0B2 100%);
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  position: relative;
+}
+
+.back{
+  position: absolute;
+  left: 0;
+  height: 100%;
+  line-height: 80px;
+}

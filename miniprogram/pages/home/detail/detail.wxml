@@ -1,0 +1,3 @@
+<!--pages/home/detail/detail.wxml-->
+<top-nav navData="{{navData}}"></top-nav>
+<text>pages/home/detail/detail.wxml</text>

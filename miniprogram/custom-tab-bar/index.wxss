@@ -1,0 +1,60 @@
+/* custom-tab-bar/index.wxss */
+.tab-bar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100rpx;
+  background: white;
+  display: flex;
+  flex-direction: row;
+  padding-bottom: env(safe-area-inset-bottom);
+  pointer-events: auto;
+}
+
+.tip {
+  border-radius: 7px 7px 7px 0;
+  position: absolute;
+  font-size: 20rpx;
+  min-width: 128rpx;
+  max-width: 170rpx;
+  color: #323232;
+  font-weight: 500;
+  top: -15rpx;
+  right: -60rpx;
+  background: #ffcc00;
+  padding: 4rpx;
+}
+
+.tab-bar-border {
+  background-color: rgba(0, 0, 0, 0.33);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 1px;
+  transform: scaleY(0.5);
+}
+
+.tab-bar-item {
+  flex: 1;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.tab-bar-item .img {
+  width: 27px;
+  height: 27px;
+}
+
+.tab-bar-item .text {
+  font-size: 10px;
+}
+
+.selectedColor {
+  color: #d40511;
+}

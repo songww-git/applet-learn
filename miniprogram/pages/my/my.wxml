@@ -1,0 +1,3 @@
+<!--pages/my/my.wxml-->
+<top-nav navData="{{navData}}"></top-nav>
+<text>pages/my/my.wxml</text>

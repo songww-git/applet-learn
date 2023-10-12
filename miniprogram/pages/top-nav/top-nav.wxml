@@ -1,0 +1,11 @@
+<!--pages/top-nav/top-nav.wxml-->
+<view class="nav-box">
+   <view wx:if="{{navData.showBack}}" class="back" bindtap="backPage">
+          返回
+     </view>
+     <view>
+      {{navData.title?navData.title:'测试'}}
+     </view>
+     <!-- <slot name="before"></slot>
+     <slot name="after"></slot> -->
+</view>
